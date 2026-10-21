@@ -4,39 +4,40 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="王语晗 —— 数据科学与大数据技术专业学生。个人主页：学习方向、研究方向与联系方式。">
-<meta name="theme-color" content="#f7fafc">
+<meta name="theme-color" content="#fbf7fa">
 <title>王语晗 · 个人主页</title>
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='28' fill='%237ba7d4'/><text x='50' y='70' font-size='54' text-anchor='middle' fill='white' font-family='sans-serif'>王</text></svg>">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='28' fill='%238fc2ea'/><text x='50' y='70' font-size='54' text-anchor='middle' fill='white' font-family='sans-serif'>王</text></svg>">
 <style>
   /* ==========================================================================
-     01 · 设计令牌（浅蓝 / 浅粉，均为纯色，不做混色渐变）
+     01 · 设计令牌（浅蓝 / 浅粉，均取自用户参考图，纯色不混色）
+     参考基准：粉 #f8edf3（图1） / 蓝 #d3ecff（图2）
      ========================================================================== */
   :root {
-    /* 蓝 —— 主色 */
-    --blue-100: #eaf2fa;
-    --blue-200: #d8e7f5;
-    --blue-300: #bcd6ee;
-    --blue-500: #7ba7d4;
-    --blue-600: #5b8cbf;
-    --blue-700: #3d6d9e;
+    /* 蓝 —— 以 #d3ecff 为锚点展开 */
+    --blue-100: #e9f5ff;
+    --blue-200: #d3ecff;  /* 参考图原色 */
+    --blue-300: #b5ddf8;
+    --blue-500: #8fc2ea;
+    --blue-600: #6ba5d8;
+    --blue-700: #4a84b8;
 
-    /* 粉 —— 辅色 */
-    --pink-100: #fdeef4;
-    --pink-200: #fbdfea;
-    --pink-300: #f6c9da;
-    --pink-500: #e4a0bd;
-    --pink-600: #d07fa4;
-    --pink-700: #b1608a;
+    /* 粉 —— 以 #f8edf3 为锚点展开 */
+    --pink-100: #faf3f7;
+    --pink-200: #f8edf3;  /* 参考图原色 */
+    --pink-300: #f2d8e7;
+    --pink-500: #e5abc8;
+    --pink-600: #d68cb1;
+    --pink-700: #bd6f97;
 
-    /* 中性 */
+    /* 中性（带一点点蓝灰倾向，与主色协调） */
     --paper:  #ffffff;
-    --canvas: #f7fafc;
-    --ink-900: #1f2f3d;
-    --ink-700: #33475b;
-    --ink-500: #607588;
-    --ink-400: #8a9cab;
-    --line:   #e6edf4;
-    --line-2: #d5e1ec;
+    --canvas: #fbf7fa;
+    --ink-900: #243342;
+    --ink-700: #3d5063;
+    --ink-500: #64788b;
+    --ink-400: #90a1b1;
+    --line:   #e9eef4;
+    --line-2: #d8e4ee;
 
     /* 造型：弧形方框 —— 有弧度但不圆 */
     --r-xs: 6px;
@@ -1341,7 +1342,7 @@
   if (photo) {
     photo.addEventListener('error', function () {
       photo.alt = '照片暂时无法显示';
-      photo.style.background = '#eaf2fa';
+      photo.style.background = '#d3ecff';
     });
   }
 })();
